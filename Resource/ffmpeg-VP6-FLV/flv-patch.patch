@@ -1,0 +1,34 @@
+Index: libavformat/flvenc.c
+===================================================================
+--- libavformat/flvenc.c	(revision 6373)
++++ libavformat/flvenc.c	(working copy)
+@@ -241,7 +241,10 @@
+ 
+     if (enc->codec_type == CODEC_TYPE_VIDEO) {
+         put_byte(pb, 9);
+-        flags = 2; // choose h263
++        if (enc->codec_id == CODEC_ID_VP6)
++            flags = 4;
++        else
++            flags = 2; // choose h263
+         flags |= pkt->flags & PKT_FLAG_KEY ? 0x10 : 0x20; // add keyframe indicator
+     } else {
+         assert(enc->codec_type == CODEC_TYPE_AUDIO);
+@@ -251,11 +254,15 @@
+ 
+         put_byte(pb, 8);
+     }
+-
+-    put_be24(pb,size+1); // include flags
++    if (enc->codec_id == CODEC_ID_VP6)
++        put_be24(pb,size+2);
++    else
++        put_be24(pb,size+1); // include flags
+     put_be24(pb,pkt->pts);
+     put_be32(pb,flv->reserved);
+     put_byte(pb,flags);
++    if (enc->codec_id == CODEC_ID_VP6)
++        put_byte(pb,0);
+     put_buffer(pb, pkt->data, size);
+     put_be32(pb,size+1+11); // previous tag size
+     flv->duration = pkt->pts + pkt->duration;

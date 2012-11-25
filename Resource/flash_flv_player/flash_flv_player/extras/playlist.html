@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Flash FLV Player Playlist</title>
+	<script type="text/javascript" src="ufo.js"></script>
+	<style type="text/css">
+		body { margin: 50px; font:12/18px Arial; }
+		h2 { font-weight: normal; color: #C00; }
+		ul, li { padding: 0; list-style: none; }
+		li a { display: block; background: #EEE; text-decoration: none; color: #000; padding: 5px; width: 310px; }
+		li .alt { background:#FFF; }
+		li a:hover {  background: #C00; color: #FFF; }
+	</style>
+</head>
+
+<body>
+
+
+	<h2>Javascript playlist example</h2>
+	
+	<div id="player"></div>
+	
+	
+	<ul>
+		<li><a href="javascript:playMovie('http://www.jeroenwijering.com/upload/acera.flv')">JW's La Acera</a></li>
+		<li><a href="javascript:playMovie('http://www.jeroenwijering.com/upload/windmill_warriors.flv')" class="alt">JW's Windmill Warriors</a></li>
+		<li><a href="javascript:playMovie('http://www.fkkc.nl/uploads/kenniswijk.flv')">FKKC's Kenniswijk</a></li>
+	</ul>
+
+	<script type="text/javascript">
+		function playMovie(file) {
+			var FO = { 	movie:"flvplayer.swf", 
+						width:"320px", 
+						height:"260px", 
+						majorversion:"7", 
+						build:"0", 
+						bgcolor:"#FFFFFF",
+						flashvars:"file="+file+"&autoStart=true" };
+			UFO.create(FO, 'player');
+		}
+		playMovie('../video.flv');
+	</script>
+
+</body>
+</html>

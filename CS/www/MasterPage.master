@@ -1,0 +1,43 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="~/Controls/PageHeader.ascx" TagName="PageHeader" TagPrefix="uc1" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>VisualVid</title>
+    <script type="text/javascript" src="ufo.js"></script>
+<script language="JavaScript" type="text/javascript">
+  // this page should never load inside of another frame
+  if (top.location != self.location)
+    {
+    top.location = self.location;
+    }
+    </script>
+    <!--[if lt IE 7.]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+    <!--[if lt IE 6.]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+</head>
+<body>
+    <form id="frmMain" runat="server">
+    <uc1:PageHeader ID="PageHeader1" runat="server" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <table width="800" cellpadding="0" cellspacing="0" border="0" align="center">
+        <tr>
+            <td width="10">
+                <img src="images/spacer.gif" width="1" height="1" alt="" border="0"></td>
+            <td style="padding: 10px;" class="footer">
+                Copyright © <% =DateTime.Now.Year %>. VisualVid. All Rights Reserved.</td>
+            <td style="padding: 10px;" align="right" class="footer">
+                <a href="/" class="footer">Home</a> | <a href="/Sitemap.aspx" class="footer">Sitemap</a> | <a
+                    href="/Contact.aspx" class="footer">Contact Us</a>
+            </td>
+            <td width="30">
+                <img src="images/spacer.gif" width="1" height="1" alt="" border="0"></td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

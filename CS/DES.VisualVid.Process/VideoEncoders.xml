@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Encoders>
+	<VideoType Extension=".mpg,.mpeg">
+		<Description>MPEG File</Description>
+		<VideoExecutable>ffmpeg.exe</VideoExecutable>
+		<VideoParameters>-i "{0}" -b 360 -r 25 -s 320x240 -hq -deinterlace -ab 56 -ar 22050 -ac 1 "{1}"</VideoParameters>
+		<ImageExecutable>ffmpeg.exe</ImageExecutable>
+		<ImageParameters>-an -y -i "{0}" -t 0.001 -s 320x240 -deinterlace -hq -f image2 "{1}"</ImageParameters>
+	</VideoType>
+	<VideoType Extension=".divx,.avi">
+		<Description>DivX File</Description>
+		<VideoExecutable>ffmpeg.exe</VideoExecutable>
+		<VideoParameters>-i "{0}" -b 360 -r 25 -s 320x240 -hq -deinterlace -ab 56 -ar 22050 -ac 1 "{1}"</VideoParameters>
+		<ImageExecutable>ffmpeg.exe</ImageExecutable>
+		<ImageParameters>-an -y -i "{0}" -t 0.001 -s 320x240 -deinterlace -hq -f image2 "{1}"</ImageParameters>
+	</VideoType>
+	<VideoType Extension=".*">
+		<Description>Video File</Description>
+		<VideoExecutable>ffmpeg.exe</VideoExecutable>
+		<VideoParameters>-i "{0}" -b 360 -r 25 -s 320x240 -hq -deinterlace -ab 56 -ar 22050 -ac 1 "{1}"</VideoParameters>
+		<ImageExecutable>ffmpeg.exe</ImageExecutable>
+		<ImageParameters>-an -y -i "{0}" -t 0.001 -s 320x240 -deinterlace -hq -f image2 "{1}"</ImageParameters>
+	</VideoType>
+</Encoders>

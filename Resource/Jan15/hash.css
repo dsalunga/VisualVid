@@ -1,0 +1,290 @@
+body{
+	margin: 0px;
+	background-color: white;
+}
+
+#header{
+	background-image: url(images/header.jpg);
+	height: 120px;
+}
+
+#s800{
+	width: 750px;
+	padding: 0px;
+	margin: 0px;s
+	border: 0px;
+}
+
+.search{
+	margin-bottom: 5px;
+}
+
+td{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #666666;
+}
+
+.from{
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.from:hover{
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#video{
+	width: 330px;
+	height: 140px;
+	z-index: -1;
+	position: absolute;
+}
+
+.footer{
+	color: black;
+	text-decoration: none;
+}
+
+.footer:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.label{
+	float: left;
+	font-size: 12px;
+	width: 75px;
+	vertical-align: top;
+}
+
+.input{
+	width: 150px;
+	height: 17px;
+	margin-bottom: 5px;
+}
+
+.logina{
+	color: #00FFFF;
+	text-decoration: none;
+}
+
+.logina:hover{
+	color: #00FFFF;
+	text-decoration: underline;
+}
+
+/*inside*/
+
+.videotitle{
+	font-family: Verdana;
+	font-size: 18px;
+	color: #662D91;
+}
+
+#video{
+	width: 320px;
+	height: 298px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background-image: url(images/video_ref.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.tags{
+	color: #666666;
+}
+
+.comment{
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	color: #662D91;
+}
+
+.commentbar{
+	height: 20px;
+	background-color: #CC99CC;
+	color: white;
+	font-size: 11px;
+	padding: 5px;
+}
+
+#hfooter{
+	color: white;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+#hfooter a{
+	color: white;
+	font-weight: bold;
+	vertical-align: top;
+	text-decoration: none;
+}
+
+#hfooter a:hover{
+	text-decoration: underline;
+}
+
+#videopage{
+	background-image: url(images/video_page.jpg);
+	width: 373px;
+	height: 19px;
+	vertical-align: middle;
+	color: #666666;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	padding-top: 4px;
+	padding-right: 10px;
+	margin: 0px;
+	border: 0px;
+}
+
+#videopage a{
+	color: #666666;
+	font-size: 12px;
+	font-weight: bold;
+	border: 1px solid transparent;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-decoration: none;
+}
+
+#videopage a:hover{
+	color: #662D91;
+	font-size: 12px;
+	font-weight: bold;
+	border: 1px solid #662D91;
+	background-color: white;
+}
+
+#videopage a:active{
+	color: #662D91;
+	font-size: 12px;
+	font-weight: bold;
+	border: 1px solid #662D91;
+	background-color: white;
+}
+
+#videopage a:visited{
+	color: #662D91;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#videolist{
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#videolist ul{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	list-style: none;
+}
+
+
+#videolist li{
+	margin: 5px;
+}
+
+#videolist li a{
+	list-style-type: none;
+	text-decoration: none;
+	color: #666666;
+}
+
+#videolist li a:hover{
+	background-image: url(images/orange_arrow.jpg); 
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 10px;
+	color: orange;
+	font-weight: bold;
+}
+
+#videolist li a:active{
+	background-image: url(images/orange_arrow.jpg); 
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 10px;
+	color: orange;
+	font-weight: bold;
+}
+
+#benefits{
+	font-size: 12px;
+}
+
+#benefits ul{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	padding-left: 10px;
+}
+
+#benefits li{
+	list-style-image: url(images/benefits_arrow.jpg);
+	color: #666666;
+	font-size: 12px;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+
+#field{
+	height: 15px;
+	font-size: 12px;
+}
+
+.label2{
+	float: left;
+	font-size: 12px;
+	width: 100px;
+	vertical-align: top;
+	text-align: right;
+}
+
+.input2{
+	float: right;
+	width: 225px;
+	height: 17px;
+	margin-bottom: 5px;
+}
+
+.right{
+	float: left;
+	margin-right: 10px;
+}
+
+.bdate{
+	float: right;
+	width: 75px;
+	height: 17px;
+	margin-bottom: 5px;
+}
+
+#videoblock{
+	float: left;
+	width: 100px;
+	height: 64px;
+	
+}
+.line{
+	background-repeat: no-repeat;
+	background-image: url(images/horline.png);
+}
+
+.username{
+	color: #f7941d;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 78px; 
+}

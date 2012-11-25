@@ -1,0 +1,913 @@
+<?xml version="1.0" standalone="yes"?>
+<ContactUs>
+  <Inquiries>
+    <ID>56</ID>
+    <Name>test</Name>
+    <Subject>test</Subject>
+    <Message>test</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1 />
+    <Address2 />
+    <City />
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip />
+    <Phone />
+    <Fax />
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-11-16T22:20:52.46+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>55</ID>
+    <Name>Zeny Novabos</Name>
+    <Subject>test</Subject>
+    <Message>test</Message>
+    <E-mail_x0020_Address>znovabos@aboitiz.com</E-mail_x0020_Address>
+    <Address1>cebu</Address1>
+    <Address2 />
+    <City>cebu</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>6000</Zip>
+    <Phone>3462660</Phone>
+    <Fax>3462791</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com, jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-10-16T11:57:10.67+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>54</ID>
+    <Name>Zeny Novabos</Name>
+    <Subject>test</Subject>
+    <Message>test</Message>
+    <E-mail_x0020_Address>znovabos@aboitiz.com</E-mail_x0020_Address>
+    <Address1>cebu</Address1>
+    <Address2 />
+    <City>cebu</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>6000</Zip>
+    <Phone>3462660</Phone>
+    <Fax>3462791</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com, jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-10-16T11:57:08.077+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>53</ID>
+    <Name>Zeny Novabos</Name>
+    <Subject>test</Subject>
+    <Message>test</Message>
+    <E-mail_x0020_Address>znovabos@aboitiz.com</E-mail_x0020_Address>
+    <Address1>cebu</Address1>
+    <Address2 />
+    <City>cebu</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>6000</Zip>
+    <Phone>3462660</Phone>
+    <Fax>3462791</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com, jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-10-16T11:50:00.403+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>52</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test Only</Subject>
+    <Message>Test Only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>MIII The Gallery Building, Amorsolo Street,</Address1>
+    <Address2>Legaspi Village</Address2>
+    <City>Makati</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-10-05T16:04:59.653+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>51</ID>
+    <Name>Butch A. Reyes</Name>
+    <Subject>Bill Payment Service</Subject>
+    <Message>Good afternoon. last Friday, I sent an inquiry regarding our company Electronic Commerce Payment, Inc. offering our services as an accredited collection agent for your company. Unfortunately, I havent received any response as to who can i possibly speak with when i go to Cebu next week. I hope I receive a response by tomorrow. Thanks,
+
+Butch A. Reyes</Message>
+    <E-mail_x0020_Address>fjareyes@ecpay.com.ph</E-mail_x0020_Address>
+    <Address1>11/f IBM Plaza, Eastwood Cyberpark, Bagumbayan,</Address1>
+    <Address2 />
+    <City>Quezon City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1100</Zip>
+    <Phone>02 421-6026/36</Phone>
+    <Fax>02 421-6045</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-09-06T17:17:38.897+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>50</ID>
+    <Name>Jaoie</Name>
+    <Subject>test send</Subject>
+    <Message>test send</Message>
+    <E-mail_x0020_Address>angelopanares@gmail.com</E-mail_x0020_Address>
+    <Address1>banilad</Address1>
+    <Address2 />
+    <City>Cebu</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>6000</Zip>
+    <Phone>2312580</Phone>
+    <Fax>2312580</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-09-04T14:37:11.53+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>49</ID>
+    <Name>carmelita segara</Name>
+    <Subject>inadequate services</Subject>
+    <Message>sir,
+  I loaned last sept. 2,2006 an amount of 80,000 from city savings bank, tanjay, neg. oriental. We arrived 10 am. We waited until 5 pm. at the last minute, we were informed that the loan was approved.The net was 72,000.We were made to sign papers to this effect.I have also signed the check.But we were onlyreleased an amount of 31,000 because according to cornelio, hernando and ortega we lacked xerox copy of the appointment of co-makers. I told them that if we lack documents then our application for loan should have been disapproved.Besides, the required documents is not stipulated in the checklist of requirements for loan applications. We were told to get the other half(31,000) next week.When I asked them where, they can not decide. I feel so cheated and exploited. 
+They told me also that they will be the one to bring the money to ourschool.Is this how you conduct your business. I cant sleep Iam worried my money might get lost . Going to the bank takes a lot of time and money because of the distance. I dont want to be absent fro the class in going there to get my loan. They can release it if they want, but they are making their own rules. Its alright for me if my loan is disapproved due to lack of requirements. This situation does not play in my favor because i have signed documents, but I have no choice</Message>
+    <E-mail_x0020_Address>carmen_segarra2003@yahoo.com</E-mail_x0020_Address>
+    <Address1>endrina street, san carlos city, negros occidental</Address1>
+    <Address2>lagaan elem. school, calatrava, neg occ</Address2>
+    <City>san carlos city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>24</State_x0020_Code>
+    <Zip>6127</Zip>
+    <Phone>034-312-6362</Phone>
+    <Fax>034-312-6362</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com, jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-09-03T15:48:44.577+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>48</ID>
+    <Name>carmelita segara</Name>
+    <Subject>inadequate services</Subject>
+    <Message>sir,
+  I loaned last sept. 2,2006 an amount of 80,000 from city savings bank, tanjay, neg. oriental. We arrived 10 am. We waited until 5 pm. at the last minute, we were informed that the loan was approved.The net was 72,000.We were made to sign papers to this effect.I have also signed the check.But we were onlyreleased an amount of 31,000 because according to cornelio, hernando and ortega we lacked xerox copy of the appointment of co-makers. I told them that if we lack documents then our application for loan should have been disapproved.Besides, the required documents is not stipulated in the checklist of requirements for loan applications. We were told to get the other half(31,000) next week.When I asked them where, they can not decide. I feel so cheated and exploited. 
+They told me also that they will be the one to bring the money to ourschool.Is this how you conduct your business. I cant sleep Iam worried my money might get lost . Going to the bank takes a lot of time and money because of the distance. I dont want to be absent fro the class in going there to get my loan. They can release it if they want, but they are making their own rules. Its alright for me if my loan is disapproved due to lack of requirements. This situation does not play in my favor because i have signed documents, but I have no choice</Message>
+    <E-mail_x0020_Address>carmen_segarra2003@yahoo.com</E-mail_x0020_Address>
+    <Address1>endrina street, san carlos city, negros occidental</Address1>
+    <Address2>lagaan elem. school, calatrava, neg occ</Address2>
+    <City>san carlos city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>24</State_x0020_Code>
+    <Zip>6127</Zip>
+    <Phone>034-312-6362</Phone>
+    <Fax>034-312-6362</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com, jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-09-03T15:48:38.687+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>47</ID>
+    <Name>MR JOAN MENDOZA ALBURO</Name>
+    <Subject>DEAF</Subject>
+    <Message>IM DEAF FROM GMA,CAVITE,PHILIPPINES</Message>
+    <E-mail_x0020_Address>JMATH84@YAHOO.COM</E-mail_x0020_Address>
+    <Address1>168-C MANGGA ST.,RD.,BRGY.POB.2 G.M.A.,CAVITE,PHILIPPINES</Address1>
+    <Address2>TIGBE NORZAGARAY,BUALCAN</Address2>
+    <City>CAVITE</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>4117</Zip>
+    <Phone>+639157726188</Phone>
+    <Fax>+639212886801</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com, jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-09-03T04:36:48.467+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>46</ID>
+    <Name>jens rich moral</Name>
+    <Subject>proposal</Subject>
+    <Message>we would like to ask if your institution is willing to have partner who is bound to provide eCommerce and card present capability to your group.  should you wish to get more information about our company and our proposal please feel free to notify us as soon as possible.
+
+ 
+
+moral, jens rich p.
+
+account executive
+
+0919-3073470
+
+ 
+
+We wish that you’ll be interested in our offer to become a partner in creating business.  We will definitely give you the most competitive rate in the business because our company is based here in the Philippines.
+
+ 
+
+Best regards, 
+
+ 
+
+ 
+
+Jens Rich P. Moral
+
+Account Executive
+
+MyPaySwitch Inc
+
+18/F Security Bank Center
+
+Makati City, 1226 Philippines
+
+Tel. No: +63 02 891 2755 
+
+Mobile No: 0919-3073470
+
+Fax No: +63 02 891 2015
+
+This communication is the property of MyPaySwitch, Inc.  MyPaySwitch, Inc. is not, however, responsible for the opinions or statement made herein. The information contained in this communication is intended solely for the use of the individual or entity to whom it is addressed and others authorized to receive it. It may contain confidential or legally privileged information. If you are not the intended recipient you are hereby notified that any disclosure, copying, distribution or taking any action in reliance on the contents of this information is strictly prohibited and may be unlawful. If you have  received this communication in error, please notify us immediately by  responding to this email and then delete it from your system. MyPaySwitch, Inc. is not liable for any information included in this communication, the proper and complete transmission of the information contained in this communication nor for any delay in its receipt.</Message>
+    <E-mail_x0020_Address>jensrich@mypayswitch.com</E-mail_x0020_Address>
+    <Address1>18/F Security bank Center Ayala ave Makati City</Address1>
+    <Address2 />
+    <City>Makati City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1226</Zip>
+    <Phone>8912755</Phone>
+    <Fax>8912015</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com, jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-09-01T17:19:05.98+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>45</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-31T11:15:29.403+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>44</ID>
+    <Name>Marlon H. BOnducan</Name>
+    <Subject>Hog Raising Methods &amp; Booklets</Subject>
+    <Message>Good Day! 
+I would like to ask a technical assistance for a small hog raising bussines. Pls include the design of the building needed. Thanks a lot &amp; more power</Message>
+    <E-mail_x0020_Address>marlonbonducan@yahoo.com</E-mail_x0020_Address>
+    <Address1>209 Bonifacio District, Cabanatuan City</Address1>
+    <Address2 />
+    <City>Cabanatuan City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>3100</Zip>
+    <Phone>09102122053</Phone>
+    <Fax>none</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>jtan@aboitiz.com, mzamora@aboitiz.com, joyce@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-31T10:33:00.217+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>43</ID>
+    <Name>Butch A. Reyes</Name>
+    <Subject>ECPay Service</Subject>
+    <Message>Good evening. ECPay is the leading Electronic Fund Transfer Point of Sale (EFT-POS) payment system provider developed by Electronic Commerce Payments, Inc.. ECPay system makes use of technology to bring efficiency and convenience to payments, allowing distributors and merchants to provide fast, accurate, secure and timely payment services to our customers over a secured data network.
+
+Being in this service, we would like to have exploratory talks with you company in order for us to be an accredited collecting agent. We have partnered with Cebuana Lhuillier in order for them to collect in your behalf. This coming September 2006, we will be in Cebu to train and educate the employees of Cebuana Lhuiller regarding the service.
+May we request if we could be granted a meeting with you so that we can assist in collecting payments from your millions of customers in the Cebu Island.
+
+Hope to hear from you the soonest possible time.</Message>
+    <E-mail_x0020_Address>fjareyes@ecpay.com.ph</E-mail_x0020_Address>
+    <Address1>11/f IBM Plaza, Eastwood Cyberpark, Bagumbayan,</Address1>
+    <Address2>Eastwood Libis</Address2>
+    <City>Quezon City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1100</Zip>
+    <Phone>02 421-6026/36</Phone>
+    <Fax>02 421-6045</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>jtan@aboitiz.com, mzamora@aboitiz.com, joyce@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-29T19:55:01.2+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>42</ID>
+    <Name>Genaro C Galope</Name>
+    <Subject>Status of Job application</Subject>
+    <Message>With your proposed CSB (CitySavings Bank) branch in Cagayan de Oro City, I just would like to know the status of my job application, as a Branch Head, thereat. thanks.</Message>
+    <E-mail_x0020_Address>genegalope@yahoo.com</E-mail_x0020_Address>
+    <Address1>B6-L12 NHA Lourdesville Subd Cagayan de Oro City</Address1>
+    <Address2 />
+    <City>Cagayan de Oro City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>9000</Zip>
+    <Phone>09183270027 or 0883508912</Phone>
+    <Fax>0652242013</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>jtan@aboitiz.com, mzamora@aboitiz.com, joyce@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-29T07:02:32.23+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>41</ID>
+    <Name>Maria Theresa A. Ocenar</Name>
+    <Subject>MAPUA</Subject>
+    <Message>Good Day!
+We are from MAPUA INSTITUTE OF TECHNOLOGY, GRADUATING CLASS OF INDUSTRIAL ENGINEERING. We are requesting for a plant tour at your reputable company. A graduating class of 50 persons to visit your company. And if you could allow us to visit on September 4, 2006. Thank you for your kind and consideration.</Message>
+    <E-mail_x0020_Address>aiza.ocenar@yahoo.com</E-mail_x0020_Address>
+    <Address1>B-10 L-14 Veraville Manuela III</Address1>
+    <Address2 />
+    <City>Las Pinas City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1740</Zip>
+    <Phone>(02)873-6967</Phone>
+    <Fax>n/a</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-28T15:12:23.093+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>40</ID>
+    <Name>Juvelyn B. Quindao</Name>
+    <Subject>wish to apply</Subject>
+    <Message>I have just browsed the web about aboitiz group and I have found out that the sales department of the company is hiring. In lieu with this, i just want to ask where to submit my credentials. Thank you!</Message>
+    <E-mail_x0020_Address>juvix_84@yahoo.com</E-mail_x0020_Address>
+    <Address1>I-108 Juana Osmena Ext., Cebu City</Address1>
+    <Address2>Gawaygaway, San Remigio, Cebu</Address2>
+    <City>Cebu</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>12</State_x0020_Code>
+    <Zip>6000</Zip>
+    <Phone>254-2946</Phone>
+    <Fax>253-7900</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-27T13:42:07.983+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Txoko</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>39</ID>
+    <Name>Juvelyn B. Quindao</Name>
+    <Subject>wish to apply</Subject>
+    <Message>I have just browsed the web about aboitiz group and I have found out that the sales department of the company is hiring. In lieu with this, i just want to ask where to submit my credentials.</Message>
+    <E-mail_x0020_Address>juvix_84@yahoo.com</E-mail_x0020_Address>
+    <Address1>I-108 Juana Osmena Ext., Cebu City</Address1>
+    <Address2>Gawaygaway, San Remigio, Cebu</Address2>
+    <City>Cebu</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>12</State_x0020_Code>
+    <Zip>6000</Zip>
+    <Phone>254-2946</Phone>
+    <Fax>253-7900</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-27T13:41:31.11+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Txoko</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>38</ID>
+    <Name>Anand Shukla</Name>
+    <Subject>Joint Venture Proposal in Electrical Industry</Subject>
+    <Message>Dear Sir, 
+ 
+ 
+Subject: Joint Venture proposal in Electrical Industry
+ 
+ 
+We came across your company on the Internet and thus this communication.
+ 
+Who are we and what we do ?
+ 
+Danke Electricals Ltd, a leading electrical engineering company from India having wide experience in the manufacture of variety of Electrical Transmission &amp; Distribution Equipments like power and distribution transformers, control relay panels, switchgears etc since last 3 decades. The website of the group is www.dankepower.com
+ 
+Danke is catering to large domestic electrical equipment requirement in India along with exporting to various countries.
+Since last 5 years, Danke has successfully entered into the foreign markets by establishing joint ventures in Sri Lanka, Saudi Arabia, Kenya and the recent one at South Africa. Danke, over the years have created a niche opportunity and market for them not only in India but on International grounds also. They have established themselves as an authority and a pioneer in retrofitting business.
+ 
+Retrofitting is a unique concept where the dead electrical assets are revived back. This not only eases the problems for the electrical dept and utilities, to get the new equipment but also saves the cost to a larger degree. It is a win-win situation to get the electrical assets retrofitted.
+ 
+Retrofit (for e.g. in Transformer)  involves :
+ 
+- Replacement with new copper coils
+- Replacement with fresh oil
+- Replacement with new insulation
+- Sand-blasting/repainting of exposed surfaces
+- Replacement with new gaskets and rubber parts
+- Re-plating of metal parts
+- Complete replacement with new fasteners
+- Overhaul of all fittings and replacement of faulty ones 
+- Complete electrical testing as per the relevant IEC standards for new transformers 
+- Extends life of transformer by minimum 15-20 years
+- Low Cost- Less than 50% the cost of a new transformer
+- Faster Lead times 
+- Warranty as given for new transformers
+ 
+What we propose ?
+ 
+We are actively looking out for the right Joint Venture (JV) partners of electrical industry, to enter into various world markets to cater to the unique  business opportunity of Retrofitting. 
+ 
+We are of the opinion that there is a tremendous potential for retrofitting in your country. 
+ 
+As your company is actively involved in Electrical Industry and knows the intricacies of the business in your country, we would be glad to discuss the possibilities of Joint Venture with your fine company. Due to our strong capabilities of retrofitting and your capabilities of marketing, our JV can do the retrofitting of old transformers, switchgears, control relay panels, motors, generators and finally substations. 
+ 
+We look forward to hear your views and interest on the subject.
+ 
+Best Regards,
+For Danke Electricals Limited
+ 
+- Anand Shukla
+Director – Overseas Operations
+Danke Electricals Limited
+ 
+Marketing Office:                                                        
+104 Synergy House,
+Gorwa Subhanpura road
+Baroda - 390023
+Gujarat State
+INDIA
+Tel: +91-265-2281419 / 2282638 / 6583714
+Fax: +91-265-2282638
+US Fax: +1-708-585-1309</Message>
+    <E-mail_x0020_Address>opps@nahak.com</E-mail_x0020_Address>
+    <Address1>104,Synergy House</Address1>
+    <Address2>Gorwa Subhanpura Road</Address2>
+    <City>Vadodara</City>
+    <Country_x0020_Code>328</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>91</Zip>
+    <Phone>91 265 2281419</Phone>
+    <Fax>91 265 2282638</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-26T14:56:30.357+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>37</ID>
+    <Name>Queeny Virtusio</Name>
+    <Subject>work for Aboitiz</Subject>
+    <Message>Hello,                        
+     I am currently a twenty-one year old Filipino student at Florida State University (USA) and will be graduating in April of 2007 with Political Science as my major and Spanish as my minor. I am currently a candidate to graduate Magna Cum Laude, and I am an American citizen (in the process of getting my paperwork finished to become a Dual/Philippine citizen as well).              
+     I have been living in the United States since I was three years old. English is my first language, and I can also speak conversational Spanish and Tagalog. After graduation in April, I will be spending some time in the Philippines, and I would like to try working there. 
+Actually, I already have a few good job offers from some businesses in Makati, but I would really like to try working for Aboitiz. After doing research on the internet, it seems to me like an exciting and challenging place to work.       
+     I am a hard worker, business minded, American trained and educated, a quick learner, I can speak conversational Spanish and Tagalog and believe that I could be a good asset to the company.                   
+    I was wondering if there is an employment opportunity available there for someone with my background? I am interested in working with Aboitiz in the Philippines.
+  Please email back.
+
+                 Thanks,
+                     Queeny Virtusio</Message>
+    <E-mail_x0020_Address>QLV03@fsu.edu</E-mail_x0020_Address>
+    <Address1>1417 Crescent Hills Dr.</Address1>
+    <Address2 />
+    <City>Tallahassee</City>
+    <Country_x0020_Code>451</Country_x0020_Code>
+    <State_x0020_Code>12</State_x0020_Code>
+    <Zip>32303</Zip>
+    <Phone>(850)341-2102</Phone>
+    <Fax>(850)341-2102</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T15:27:44.38+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>36</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>test</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T12:40:33.94+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>35</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>test</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T12:39:52.3+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>34</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T12:05:26.707+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>33</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T12:02:10.41+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>32</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com, dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T11:58:45.627+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>31</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com; dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T11:57:15.317+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>30</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com; dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T11:56:23.363+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>29</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com; dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T11:55:33.173+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>28</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com; dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T11:52:52.16+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>27</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com; dcsalunga@yahoo.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T11:50:03.49+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>26</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T11:09:22.3+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>25</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T11:09:09.067+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>24</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T10:56:24.673+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>23</ID>
+    <Name>Daniel C. Salunga</Name>
+    <Subject>Test only</Subject>
+    <Message>Test only</Message>
+    <E-mail_x0020_Address>daniel@softrigger.com</E-mail_x0020_Address>
+    <Address1>m3</Address1>
+    <Address2>gallery building</Address2>
+    <City>makati city</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1200</Zip>
+    <Phone>00</Phone>
+    <Fax>00</Fax>
+    <Sent_x0020_To>Aboitiz</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>daniel@softrigger.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-23T10:51:54.58+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Feedback</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>22</ID>
+    <Name>ALICIA A. MIRANDA</Name>
+    <Subject>STOCKS CERTIFICATES</Subject>
+    <Message>Requesting that all communications be sent to my new address  -
+NEED TO INFORM ABOITIZ OF CHANGE OF ADDRESS
+OLD:  c/o BA Finance Corporation, Gamboa Street,
+          Legaspi Village, Makati, Metro Manila
+NEW:  18 M. Aquino Street, Corazonville Subd.,  
+          Tandang Sora, Quezon City 1116</Message>
+    <E-mail_x0020_Address>alicemiranda59@yahoo.com</E-mail_x0020_Address>
+    <Address1>18 M. Aquino Street, Corazonville Subd.,</Address1>
+    <Address2>Tandang Sora</Address2>
+    <City>Quezon City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1116</Zip>
+    <Phone>(632) 4564551</Phone>
+    <Fax>none</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com; jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-18T22:51:01.75+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>21</ID>
+    <Name>ALICIA A. MIRANDA</Name>
+    <Subject>STOCKS CERTIFICATES, others</Subject>
+    <Message>Requesting that all communications be sent to my new address  -
+NEED TO INFORM ABOITIZ OF CHANGE OF ADDRESS
+OLD:  c/o BA Finance Corporation, Gamboa Street,
+          Legaspi Village, Makati, Metro Manila
+NEW:  18 M. Aquino Street, Corazonville Subd.,  
+          Tandang Sora, Quezon City 1116</Message>
+    <E-mail_x0020_Address>alicemiranda59@yahoo.com</E-mail_x0020_Address>
+    <Address1>18 M. Aquino Street, Corazonville Subd.,</Address1>
+    <Address2>Tandang Sora</Address2>
+    <City>Quezon City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1116</Zip>
+    <Phone>(632) 4564551</Phone>
+    <Fax>none</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com; jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-18T22:49:33.733+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+  <Inquiries>
+    <ID>20</ID>
+    <Name>ALICIA A. MIRANDA</Name>
+    <Subject>STOCKS CERTIFICATES, others</Subject>
+    <Message>Requesting that all communications be sent to my new address  -
+NEED TO INFORM ABOITIZ OF CHANGE OF ADDRESS
+OLD:  c/o BA Finance Corporation, Gamboa Street,
+          Legaspi Village, Makati, Metro Manila
+NEW:  18 M. Aquino Street, Corazonville Subd.,  
+          Tandang Sora, Quezon City 1116</Message>
+    <E-mail_x0020_Address>alicemiranda59@yahoo.com</E-mail_x0020_Address>
+    <Address1>18 M. Aquino Street, Corazonville Subd.,</Address1>
+    <Address2>Tandang Sora</Address2>
+    <City>Quezon City</City>
+    <Country_x0020_Code>394</Country_x0020_Code>
+    <State_x0020_Code>0</State_x0020_Code>
+    <Zip>1116</Zip>
+    <Phone>(632) 4564551</Phone>
+    <Fax>none</Fax>
+    <Sent_x0020_To>Aboitiz Equity Ventures</Sent_x0020_To>
+    <Sent_x0020_To_x0020_Email>joyce@softrigger.com; jtan@aboitiz.com</Sent_x0020_To_x0020_Email>
+    <Date_x002F_Time>2006-08-18T22:48:24.09+08:00</Date_x002F_Time>
+    <Is_x0020_Read>false</Is_x0020_Read>
+    <Inquiry_x0020_Type>Request</Inquiry_x0020_Type>
+    <Web_x0020_Site>Aboitiz3</Web_x0020_Site>
+  </Inquiries>
+</ContactUs>
