@@ -1,0 +1,44 @@
+/* VisualVid - Site Styles */
+
+:root {
+    --vv-primary: #0d6efd;
+    --vv-dark: #1a1a2e;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: var(--vv-dark) !important;
+}
+
+.card-img-top {
+    height: 160px;
+    object-fit: cover;
+    background-color: #dee2e6;
+}
+
+.video-card .card-title {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+footer {
+    background-color: var(--vv-dark);
+    color: #adb5bd;
+}
+
+footer a {
+    color: #ced4da;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}

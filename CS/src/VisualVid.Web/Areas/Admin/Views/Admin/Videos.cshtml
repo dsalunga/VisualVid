@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Manage Videos";
+    var videos = ViewBag.Videos as System.Data.DataTable;
+}
+
+<h2>Manage Videos</h2>
+
+@if (videos != null && videos.Rows.Count > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                @foreach (System.Data.DataColumn col in videos.Columns)
+                {
+                    <th>@col.ColumnName</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (System.Data.DataRow row in videos.Rows)
+            {
+                <tr>
+                    @foreach (var item in row.ItemArray)
+                    {
+                        <td>@item</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">No videos found.</p>
+}
+
+<a asp-action="Index" class="btn btn-secondary">Back to Dashboard</a>

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<KDDI>
+  <Inquiries>
+    <ID>3</ID>
+    <Contact_x0020_Person>Daniel C. Salunga</Contact_x0020_Person>
+    <User_x0020_Name>member04</User_x0020_Name>
+    <Email_x0020_Address>daniel@softrigger.com</Email_x0020_Address>
+    <Telephone_x0020_Number>00</Telephone_x0020_Number>
+    <Product_x0020_ID>4</Product_x0020_ID>
+    <Product_x0020_Name>HIBUN AE IF Mail Option</Product_x0020_Name>
+    <Version>7</Version>
+    <OS>Vista</OS>
+    <Supplier>Microsoft</Supplier>
+    <Supplier_x0020_Email>daniel@softrigger.com</Supplier_x0020_Email>
+    <Inquiry>hello</Inquiry>
+    <Comments>hello</Comments>
+    <Date_x002F_Time>Jan  3 2007  4:22PM</Date_x002F_Time>
+  </Inquiries>
+  <Inquiries>
+    <ID>1</ID>
+    <Contact_x0020_Person>Daniel C. Salunga</Contact_x0020_Person>
+    <User_x0020_Name>member04</User_x0020_Name>
+    <Email_x0020_Address>daniel@softrigger.com</Email_x0020_Address>
+    <Telephone_x0020_Number>00</Telephone_x0020_Number>
+    <Product_x0020_ID>2</Product_x0020_ID>
+    <Product_x0020_Name>HIBUN AE Information Cypher</Product_x0020_Name>
+    <Version>7</Version>
+    <OS>Vista</OS>
+    <Supplier>Microsoft</Supplier>
+    <Supplier_x0020_Email>daniel@softrigger.com</Supplier_x0020_Email>
+    <Inquiry>help</Inquiry>
+    <Comments>help</Comments>
+    <Date_x002F_Time>Jan  2 2007 11:29PM</Date_x002F_Time>
+  </Inquiries>
+</KDDI>

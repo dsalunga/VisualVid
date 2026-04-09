@@ -1,0 +1,57 @@
+@{
+    ViewData["Title"] = "Home";
+    var featured = ViewBag.FeaturedVideos as List<VideoListItemViewModel> ?? [];
+    var mostWatched = ViewBag.MostWatched as List<VideoListItemViewModel> ?? [];
+}
+
+<h2>Featured Videos</h2>
+<div class="row">
+    @foreach (var video in featured)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <a href="@Url.Action("Watch", "Video", new { videoId = video.VideoId })">
+                    <img src="@video.ThumbnailUrl" class="card-img-top" alt="@video.Title"
+                         onerror="this.src='/images/img_novideo.jpg'" />
+                </a>
+                <div class="card-body">
+                    <h6 class="card-title">
+                        <a href="@Url.Action("Watch", "Video", new { videoId = video.VideoId })" class="text-decoration-none">
+                            @video.Title
+                        </a>
+                    </h6>
+                    <p class="card-text text-muted small">
+                        By <a href="@Url.Action("Index", "Profile", new { userId = video.UserId })">@video.UserName</a><br />
+                        @video.Views views &middot; @video.DateAdded
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<h2 class="mt-4">Most Watched</h2>
+<div class="row">
+    @foreach (var video in mostWatched)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <a href="@Url.Action("Watch", "Video", new { videoId = video.VideoId })">
+                    <img src="@video.ThumbnailUrl" class="card-img-top" alt="@video.Title"
+                         onerror="this.src='/images/img_novideo.jpg'" />
+                </a>
+                <div class="card-body">
+                    <h6 class="card-title">
+                        <a href="@Url.Action("Watch", "Video", new { videoId = video.VideoId })" class="text-decoration-none">
+                            @video.Title
+                        </a>
+                    </h6>
+                    <p class="card-text text-muted small">
+                        By <a href="@Url.Action("Index", "Profile", new { userId = video.UserId })">@video.UserName</a><br />
+                        @video.Views views &middot; @video.DateAdded
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

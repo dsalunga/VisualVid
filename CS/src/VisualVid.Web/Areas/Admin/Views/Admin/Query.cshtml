@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Query Analyzer";
+    var results = ViewBag.Results as System.Data.DataTable;
+    var error = ViewBag.Error as string;
+}
+
+<h2>Query Analyzer</h2>
+<p class="text-muted">Execute read-only SQL queries (SELECT only).</p>
+
+<form asp-action="Query" method="post">
+    <div class="mb-3">
+        <label for="sql" class="form-label">SQL Query</label>
+        <textarea name="sql" id="sql" class="form-control font-monospace" rows="5" placeholder="SELECT * FROM Videos">@ViewBag.Sql</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Execute</button>
+</form>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger mt-3">@error</div>
+}
+
+@if (results != null && results.Rows.Count > 0)
+{
+    <div class="table-responsive mt-3">
+        <table class="table table-striped table-bordered table-sm">
+            <thead>
+                <tr>
+                    @foreach (System.Data.DataColumn col in results.Columns)
+                    {
+                        <th>@col.ColumnName</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (System.Data.DataRow row in results.Rows)
+                {
+                    <tr>
+                        @foreach (var item in row.ItemArray)
+                        {
+                            <td>@item</td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <p class="text-muted">@results.Rows.Count row(s) returned.</p>
+}
+
+<a asp-action="Index" class="btn btn-secondary mt-2">Back to Dashboard</a>

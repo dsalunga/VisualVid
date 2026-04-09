@@ -1,0 +1,45 @@
+@model VideoUploadViewModel
+@{
+    ViewData["Title"] = "Upload Video";
+}
+
+<h2>Upload Video</h2>
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label">Title</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Tags" class="form-label">Tags (comma separated)</label>
+        <input asp-for="Tags" class="form-control" placeholder="e.g. funny, cats, music" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label">Category</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select">
+            <option value="">Select Category</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="VideoFile" class="form-label">Video File</label>
+        <input asp-for="VideoFile" class="form-control" type="file" accept="video/*" />
+        <span asp-validation-for="VideoFile" class="text-danger"></span>
+        <div class="form-text">Maximum file size: @ViewBag.MaxSizeMB MB</div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Upload</button>
+    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

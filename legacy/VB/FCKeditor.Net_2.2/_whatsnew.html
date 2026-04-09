@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2005 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * "Support Open Source software. What about a donation today?"
+-->
+<html>
+	<head>
+		<title>FCKeditor - What's New</title>
+		<style>
+			body { font-family: Arial, Verdana, Sans-Serif; }
+			p { margin-left: 20px; }
+		</style>
+	</head>
+	<body>
+		<h3>Version 2.2</h3>
+		<P>New Features and Improvements:</P>
+		<UL>
+			<LI>
+				The <STRONG>Quick File Uploader</STRONG>
+			is now available. So you point&nbsp;allo Uploading 
+			configuration&nbsp;setting&nbsp;to the 
+			editor/filemanager/upload/aspx/upload.aspx file.
+			<LI>
+				The rendered output is&nbsp;now <STRONG>XHTML</STRONG>
+			compatible.
+			<LI>
+			You can set the QueryString value "fcksource=true" to load the editor using the 
+			source files (located in the _source directory) instead of the compressed ones. 
+			Thanks to Kae Verens for the suggestion.
+			<LI>
+				<STRONG>Attention</STRONG>: for security reasons, it is not anymore possible to 
+				pass the user files directory path by the URL.</LI></UL>
+		<P>Fixed Bugs:</P>
+		<UL>
+			<LI>
+				[<A href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1249796&amp;group_id=75348&amp;atid=543653"
+					target="_blank">SF BUG-1249796</A>] [<A href="https://sourceforge.net/tracker/index.php?func=detail&amp;aid=1260153&amp;group_id=75348&amp;atid=543653"
+					target="_blank">SF BUG-1260153</A>] [<A href="https://sourceforge.net/tracker/index.php?func=detail&amp;aid=1308718&amp;group_id=75348&amp;atid=543653"
+					target="_blank">SF BUG-1308718</A>] The editor is now loading correctly 
+			over Firefox when placed inside a control hierarchy.
+			<LI>
+				The configurations set in the editor are now saved in the viewstate and persist 
+				during posts.</LI></UL>
+		<H3>Version 2.1</H3>
+		<P>New Features and Improvements:</P>
+		<UL>
+			<LI>
+				All <STRONG>configurations</STRONG> can now be set as component <STRONG>properties</STRONG>.
+			<LI>
+				The editor now resolves <STRONG>application relative paths</STRONG>
+			(starting with tilde "~"). Thanks to "theyoyoman".
+			<LI>
+				The samples have been moved to the FCKeditor.Net package. In this way we can 
+				provide a richer and more organized set of samples.</LI></UL>
+		<P>Fixed Bugs:</P>
+		<UL>
+			<LI>
+				[<A href="http://sourceforge.net/tracker/?group_id=75348&amp;atid=543653" target="_blank">SF 
+					BUG-1118200</A>] [<A href="https://sourceforge.net/tracker/index.php?func=detail&amp;aid=1117410&amp;group_id=75348&amp;atid=543653"
+					target="_blank">SF BUG-1117410</A>] [<A href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1091348&amp;group_id=75348&amp;atid=543653"
+					target="_blank">SF BUG-1091348</A>] [<A href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1150981&amp;group_id=75348&amp;atid=543653"
+					target="_blank">SF BUG-1150981</A>] [<A href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1109086&amp;group_id=75348&amp;atid=543653"
+					target="_blank">SF BUG-1109086</A>] There was an incorrect use of the 
+			UniqueID property when rendering the editor HTML. It was causing errors when 
+			running the editor over a User Control. It has been fixed.
+			<LI>
+			The component now detects IE 5.5 browsers correctly. Thanks to "chayes20".
+			<LI>
+				The references to fckeditor.js in the samples have been removed. There were 
+				never required. It was just a "typo" in the sample pages.</LI></UL>
+		</SPAN>
+	</body>
+</html>

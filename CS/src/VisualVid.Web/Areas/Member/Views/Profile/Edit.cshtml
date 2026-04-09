@@ -1,0 +1,61 @@
+@model MemberProfileEditViewModel
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+
+<h2>Edit Profile</h2>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">@ViewBag.Message</div>
+}
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="row">
+        <div class="col-md-3 text-center">
+            <img src="@Model.PhotoUrl" alt="Profile Photo" class="img-fluid rounded-circle mb-3" style="max-width:150px;"
+                 onerror="this.src='/images/img_userpic.jpg'" />
+            <div class="mb-3">
+                <label asp-for="Photo" class="form-label">Change Photo</label>
+                <input asp-for="Photo" class="form-control" type="file" accept="image/*" />
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="FirstName" class="form-label">First Name</label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label asp-for="LastName" class="form-label">Last Name</label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="CountryId" class="form-label">Country</label>
+                <select asp-for="CountryId" asp-items="ViewBag.Countries" class="form-select">
+                    <option value="">Select Country</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="AboutMe" class="form-label">About Me</label>
+                <textarea asp-for="AboutMe" class="form-control" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+            <a asp-controller="Dashboard" asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </div>
+</form>

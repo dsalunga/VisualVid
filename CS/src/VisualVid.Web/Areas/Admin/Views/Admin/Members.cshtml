@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Manage Members";
+    var members = ViewBag.Members as System.Data.DataTable;
+}
+
+<h2>Manage Members</h2>
+
+@if (members != null && members.Rows.Count > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                @foreach (System.Data.DataColumn col in members.Columns)
+                {
+                    <th>@col.ColumnName</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (System.Data.DataRow row in members.Rows)
+            {
+                <tr>
+                    @foreach (var item in row.ItemArray)
+                    {
+                        <td>@item</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">No members found.</p>
+}
+
+<a asp-action="Index" class="btn btn-secondary">Back to Dashboard</a>

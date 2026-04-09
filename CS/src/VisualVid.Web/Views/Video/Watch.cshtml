@@ -1,0 +1,100 @@
+@model WatchViewModel
+@{
+    ViewData["Title"] = Model.Video?.Title ?? "Watch";
+}
+
+@if (Model.Video == null)
+{
+    <div class="alert alert-warning">Video not found.</div>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-8">
+            <h3>@Model.Video.Title</h3>
+            <div class="ratio ratio-16x9 mb-3">
+                <video controls autoplay>
+                    <source src="@Model.Video.VideoUrl" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="d-flex justify-content-between text-muted small mb-3">
+                <span>@Model.Video.Views views</span>
+                <span>Uploaded @Model.Video.DateAdded</span>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p>@Model.Video.Description</p>
+                    @if (!string.IsNullOrEmpty(Model.Video.TagsHtml))
+                    {
+                        <p><strong>Tags:</strong> @Html.Raw(Model.Video.TagsHtml)</p>
+                    }
+                    <p>
+                        <strong>Category:</strong> @Model.Video.CategoryName<br />
+                        <strong>Uploaded by:</strong>
+                        <a href="@Url.Action("Index", "Profile", new { userId = Model.Video.UserId })">@Model.Video.UserName</a>
+                    </p>
+                </div>
+            </div>
+
+            <h4>Comments (@Model.Comments.Count)</h4>
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <form asp-action="AddComment" method="post" class="mb-3">
+                    <input type="hidden" name="videoId" value="@Model.Video.VideoId" />
+                    <div class="mb-2">
+                        <textarea name="body" class="form-control" rows="3" placeholder="Write a comment..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-sm">Post Comment</button>
+                </form>
+            }
+            else
+            {
+                <p class="text-muted"><a asp-controller="Account" asp-action="Login">Login</a> to post a comment.</p>
+            }
+
+            @foreach (var comment in Model.Comments)
+            {
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <strong>
+                                <a href="@Url.Action("Index", "Profile", new { userId = comment.UserId })">@comment.UserName</a>
+                            </strong>
+                            <small class="text-muted">@comment.DateAdded</small>
+                        </div>
+                        <p class="mb-0 mt-1">@comment.Body</p>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="col-md-4">
+            <h5>Related Videos</h5>
+            @if (Model.RelatedVideos.Any())
+            {
+                @foreach (var related in Model.RelatedVideos)
+                {
+                    <div class="d-flex mb-3">
+                        <a href="@Url.Action("Watch", "Video", new { videoId = related.VideoId })" class="me-2 flex-shrink-0">
+                            <img src="@related.ThumbnailUrl" alt="@related.Title" style="width:120px;height:68px;object-fit:cover;"
+                                 onerror="this.src='/images/img_novideo.jpg'" />
+                        </a>
+                        <div>
+                            <a href="@Url.Action("Watch", "Video", new { videoId = related.VideoId })" class="text-decoration-none small fw-bold">
+                                @related.Title
+                            </a>
+                            <div class="text-muted small">@related.Views views</div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p class="text-muted small">No related videos found.</p>
+            }
+        </div>
+    </div>
+}
